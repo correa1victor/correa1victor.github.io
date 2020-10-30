@@ -1,0 +1,27 @@
+
+head{
+		margin: 0px;
+		padding: 0px;
+			
+	}
+body{
+		margin:0px;
+		padding:0px;
+			
+	}
+.cabeca img{
+		width: 870px;
+		height: 400px;
+			
+	}
+
+body article{
+		margin:25px;
+		padding:25px;
+			
+}
+
+body p{
+		margin:0px;
+		padding:0px;
+}

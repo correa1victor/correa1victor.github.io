@@ -1,0 +1,31 @@
+
+
+
+body{
+	background-image: url("img\dont42.jpg");
+	background: #DCDCDC;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.imgUm{
+	width:1500px;
+	height:300px;
+}
+
+.sessaoUm {
+	text-align: center;
+
+}
+
+
+.imgDois{
+	width:1500px;
+	height:200px;
+}
+
+footer {
+	text-align: center;
+
+}

@@ -1,0 +1,38 @@
+.estrutura-geral{
+
+			display: grid;
+			grid-template-columns: 1fr  1fr;
+			grid-column-gap: 20px;
+
+}
+
+.sessao .videos{
+
+				display: grid;
+				grid-template-columns: 200px 200px;
+				justify-content: center;
+				align-content: center;
+				grid-gap: 20px;
+
+}
+
+.sessao .videos .video-mp4{
+
+	align-items: center;
+}
+
+.sessao .fotos{		
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr 1fr;
+				justify-content: center;
+				align-content: center;
+				grid-gap: 10px;
+}
+
+ .sessao .fotos img{
+ 					width: 200px;
+					margin: 0 auto;
+					border-radius: 10px;
+					box-shadow: 5px 5px 15px #808080
+
+ }
