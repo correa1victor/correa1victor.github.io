@@ -156,89 +156,7 @@ h2{
 		font-weight: bold;
 }
 
- .formulario{
-
-	background: linear-gradient(360deg, #b1a8a8, #c6c3c3);
-	border-radius: 5px;
-	width: 700px;
-	height: 500px;
-	box-shadow: 5px 5px 5px #c3bbc4;
-	margin:auto;
-	
-}
-
-   .formulario #idemail, #idnome{
-   	margin-top: 30px;
-	border-radius: 5px;
-	width: 500px;
-	height: 20px;
-	font-family: arial, serif;
-	font-weight: bold;
-	
-
-
-}
-
-.formulario #idenviar, #idapagar{
-
-	border-radius: 6px;
-	background-color: black;
-	margin: auto;
-	color: white;
-	font-size: 15pt;
-	font-weight: bold;
-	padding: 8px;
-
-}
-
-.formulario legend{
-
-	font-family: arial, serif;
-	font-size: 25pt;
-	font-weight: bold;
-}
-
-.formulario textarea{
-   	
-	border-radius: 5px;
-	
-}
-.formulario h3{
-   	
-	font-family: arial, serif;
-	font-size: 20pt;
-	font-weight: bold;
-	
-}
-.formulario textarea:hover{
-   	
-	background-color: #b3b0b3;
-	
-}
-
-.formulario input{
-   	
-	font-family: arial, serif;
-	font-size: 15pt;
-	font-weight: normal;
-	
-}
-
-.formulario input:hover{
-	background-color: #b3b0b3;
-}
-
-.formulario fieldset{
-					margin: 25px;
-}
-
-.formulario p{
-
-	font-size: 15pt;
-	font-family: arial;
-	font-weight: bold;
-
-}
+ 
 
 footer{
 			background: linear-gradient(360deg , #d24bde, #903bcb);
@@ -355,4 +273,236 @@ footer ul li a{
 		font-family: arial, serif;
 		font-weight: bold;
 
+}
+
+  #imagem-fundo {
+	 background-image: url(../img/amazonia.jpg);
+	 background-repeat: no-repeat;
+	 background-image: cover;
+	 background-size: 100%;
+}
+
+.box{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 150px;
+		height: 600px;
+	
+}
+
+.formulario{
+				height: 500px;
+
+
+				
+
+
+}
+
+.formulario input#idnome{
+					margin-top: 20px;
+					height: 60px;
+					border-radius: 15px;
+					background: rgba(255, 255, 255, 0.5);
+					box-shadow: 5px 5px 10px black;
+					border: none;
+					width: 800px;
+					font-size: 30pt;
+					font-family: serif;
+					text-indent: 50px;
+
+					
+					
+}
+
+.formulario  input#idemail{
+					
+					height: 60px;
+					border-radius: 15px;
+					background: rgba(255, 255, 255, 0.5);
+					box-shadow: 5px 5px 10px black;
+					border: none;
+					width: 800px;
+					font-size: 30pt;
+					font-family: serif;
+					text-indent: 50px;
+
+}
+
+.formulario input#idnome, input#idemail{
+					font-weight: bolder;
+
+					
+}
+
+
+
+
+#idenviar{
+
+	border-radius: 8px;
+	width: 300px;
+	height: 60px;
+	background: #ff0080;
+	border: none;
+	box-shadow: 5px 5px 10px black;
+}
+
+.formulario label{
+
+	font-size: 30pt;
+	color: white;
+	font-weight: bolder;
+	margin-right: 5px;
+	border: black;
+}
+
+ #idenviar {
+				font-size: 30pt;
+				color: white;
+				font-weight: border;
+				margin-left: 250px;
+				margin-top: 20px;
+				font-family: arial, sans serif;
+			
+				
+
+	}
+
+	#login {
+			color: white;
+			font-weight: bolder;
+			font-size: 25pt;
+			font-family: serif;
+			margin-left: 200px; 
+			
+	}
+
+#login a{
+			color: white;
+			font-weight: bolder;
+			font-size: 25pt;
+			font-family: serif;
+			text-decoration: none;
+
+
+
+	}
+
+
+	.conteiner{
+				height: 800px;
+
+
+	}
+
+
+	.formulario2{
+
+					width: 450px;
+					height: 500px;
+					margin: auto;
+					margin-top: 60px;
+					margin-bottom: 220px;
+
+
+	}
+
+	.formulario2 fieldset#base {
+							border-radius: 0px 80px 0px 80px ;
+							box-shadow: 5px 5px 30px black;
+							background: #4e4e4e;
+							padding: 20px;
+
+	}
+
+	.formulario2 #idnome, #idemail1, #idmoradia{
+
+					width: 300px;
+					height: 30px;
+					border-radius: 8px;
+					background: rgba(255, 255, 255, 0.8);
+					color: white;
+	}
+
+		.formulario2 p{
+
+					color:white;
+					font-weight: bolder;
+					font-size: 15pt;
+		}
+
+	#idmsg{
+			width: 300px;
+			height: 100px;
+			background: rgba(255, 255, 255, 0.8);
+			color: white;
+			border-radius: 8px;
+
+	}
+
+		.formulario2 #ididade{
+			
+							border-radius: 4px;
+
+						}
+
+
+.formulario #idmasculino{
+	margin-left: 30px;
+}
+
+
+
+.formulario2 legend{
+	font-weight: border;
+	font-size: 18pt;
+	font-family: serif;
+	color: white;
+}
+
+.formulario2 #idsexo{
+					width: 200px;
+					margin: auto;
+					padding: 10px;
+					color: white;
+
+
+}
+
+.formulario2 h3{
+				color: white;
+				font-size: 15pt;
+				font-weight: border;
+}
+
+.formulario2 #ididade{
+				color: white;
+				font-size: 14pt;
+				background: rgba(255, 255, 255, 0.8);
+}
+
+
+	
+.formulario2 #idformulario2, #idformulario22{
+
+	color: white;
+	background: black;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 15pt;
+	border: none;
+
+	}
+.formulario2 #idformulario2{
+
+
+	margin-left: 90px;
+}
+
+body#corpo-fomulario {
+
+	background-image: url(../img/fundo-contato.jpg);
+	background-position: cover;
 }

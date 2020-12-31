@@ -9,9 +9,14 @@
 			<link rel="stylesheet" href="css/estilo.css">
 			<link rel="stylesheet" type="text/css" href="css/flexbox.css">
 			<link rel="stylesheet" type="text/css" href="css/grid.css">
+			<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+			<script src="./javascript/jquery.js" ></script>
+			<script src="./javascript/script.js" ></script>
 				
 	</head>
-	<body>
+
+
+	<body id="imagem-fundo">
 				
 			<header class="cabecalho">
 					<div class="logotipo">
@@ -30,29 +35,26 @@
 			</header>
 
 			
-			
+						<div class="box">
 						<form class="formulario" method="post">
 
-							<fieldset>	<legend>Contato</legend>
-							<p><label for="idnome">Nome: </label>	<input type="text" name="tnome" id="idnome" placeholder="Digite o seu nome completo" required maxlength="50"> </p>
-							<p><label for="idemail">E-mail: </label>	<input type="email" name="temail" id="idemail" placeholder="Digite o email" required > </p>
+							<p><input type="email" name="temail" id="idemail" placeholder="Digite o e-mail" required > </p>
 
-								<h3><label for="idmsg">Deixe uma mensagem</label></h3>
-							<p><textarea cols="50" rows="8" name="msg" id="idmsg" ></textarea></p>
+							<p><input type="password" name="tnome" id="idnome" placeholder="Digite a senha" required maxlength="50"> </p>
+
+								
 
 							<input type="submit" name="Enviar" id="idenviar" value="Enviar" >
-							<input type="reset" name="apagar" id="idapagar" value="Apagar">
 
-						    </fieldset>
-
+							<p id="login"> Não é cadastrado? <a href="formulario.html">Clique Aqui!</a></p>
+								
 						</form>
+
+						</div>
 			
+
+
 		
-
-
-				
-	
-
 
 			<footer > 
 					<ul>
