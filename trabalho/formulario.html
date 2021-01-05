@@ -18,6 +18,7 @@
 	<body id="corpo-fomulario">
 				
 			<header class="cabecalho">
+
 					<div class="logotipo">
 						<img src="img/logo1.png" alt="imagem">
 					</div>
@@ -35,31 +36,31 @@
 
 				<div class="conteiner">
 			
-						<form class="formulario2" method="post">
+						<form action="javascript: enviar();" class="formulario2"  method="post">
 
 							<fieldset id="base">	<legend>Contato</legend>
 
-							<p><label for="idnome">Nome: </label><br>	<input type="text" name="tnome" id="idnome" placeholder="Digite o seu nome completo" required maxlength="50"> </p>
+							<p><label for="idnome">Nome: </label><br>	<input type="text"  class="js-input-name" name="name"  id="idnome" placeholder="Digite o seu nome completo" required maxlength="50"> </p>
 
-							<p><label for="idemail1">E-mail: </label><br>	<input type="email" name="temail" id="idemail1" placeholder="Digite o email" required > </p>
+							<p><label for="idemail1">E-mail: </label><br>	<input type="email"  class="js-input-email" name="email"  id="idemail1" placeholder="Digite o email" required > </p>
 
-							<p><label for="idmoradia">Moradia: </label><br>	<input type="text" name="temail" id="idmoradia" placeholder="Digite o endereco" required > </p>
+							<p><label for="idmoradia">Moradia: </label><br>	<input type="text"  class="js-input-morada" name="morada" id="morada" placeholder="Digite o endereco" required > </p>
 
-							<p><label for="ididade">Idade: </label><br>	<input type="date" name="temail" id="ididade"required > </p>
+							<p><label for="ididade">Idade: </label><br>	<input type="date" class="js-input-idade" name="idade" id="ididade"required > </p>
 
 						
 							<fieldset id="idsexo"> <legend>Sexo</legend>
 
-						<label for="idmasculino">Masculino </label>	<input type="radio" name="tsexo" id="idmasculino">
+								<label for="idmasculino">Masculino </label>	<input type="radio" class="js-input-sexo" name="sexo" id="idmasculino">
 
-						<label for="idfeminino">Feminino </label> <input type="radio"  name="tsexo" id="idfeminino" >
+								<label for="idfeminino">Feminino </label> <input type="radio" class="js-input-sexo" name="sexo" id="idfeminino" >
 
 							</fieldset>
 
 
-								<h3><label for="idmsg">Deixe uma mensagem</label></h3>
+							<h3><label for="idmsg">Deixe uma mensagem</label></h3>
 
-							<p><textarea cols="50" rows="8" name="msg" id="idmsg" ></textarea></p>
+							<p><textarea cols="50" rows="8" class="js-input-msg" name="msg" id="idmsg" ></textarea></p>
 
 							<input type="submit" name="Enviar" id="idformulario2" value="Enviar" >
 							<input type="reset" name="apagar" id="idformulario22" value="Apagar">
@@ -67,13 +68,8 @@
 						    </fieldset>
 
 						</form>
-			
-		
-
-
 				
 				</div>
-
 
 			<footer > 
 					<ul>
