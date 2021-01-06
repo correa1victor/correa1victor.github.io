@@ -275,11 +275,13 @@ footer ul li a{
 
 }
 
-  #imagem-fundo {
+  .box2 {
 	 background-image: url(../img/amazonia.jpg);
 	 background-repeat: no-repeat;
 	 background-image: cover;
 	 background-size: 100%;
+	 margin-top: -160px;
+
 }
 
 .box{
@@ -288,10 +290,12 @@ footer ul li a{
 		align-items: center;
 		margin-top: 150px;
 		height: 600px;
+		
 	
 }
 
-.formulario{
+.formulario{	
+				margin-top: 200px;	
 				height: 500px;
 
 
